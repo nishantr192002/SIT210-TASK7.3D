@@ -1,7 +1,7 @@
 from time import sleep
 from gpiozero import DistanceSensor, PWMOutputDevice
 
-# Create a PWM led on GPIO pin 13
+# Create a PWM led on GPIO pin 9
 led = PWMOutputDevice(9)
 
 # Create a distance sensor with echo on GPIO 23 and trigger on GPIO 24
